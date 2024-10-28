@@ -1,6 +1,5 @@
 
 import Icons from '../../assets/icons';
-import Button from '../../components/button';
 
 const searches = [
   { title: "All jobs", location: "52 Irving Pl, NY", date: "October 14, 2024" },
