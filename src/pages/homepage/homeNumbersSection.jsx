@@ -9,7 +9,7 @@ const NumberSection = () => {
   ];
 
   return (
-    <div className="flex justify-around items-center py-4 border-b border-gray-300 mx-32">
+    <div className="flex justify-around items-center flex-wrap py-4 border-b border-gray-300 mx-32 ">
       {stats?.map((stat, index) => (
         <div key={index} className="text-center">
           <p className="text-blue-600 text-3xl font-semibold">{stat.value}</p>

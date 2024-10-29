@@ -3,6 +3,7 @@ import FeaturedJobs from "./featuredJobs";
 import NumberSection from "./homeNumbersSection";
 import InfoHomePage from "./homePageInfo";
 import JobSearch from "./homePageSearch";
+import AnotherJobSearch from "./jobSearch";
 import RecentSearch from "./recentSearch";
 
 const HomePage=()=>{
@@ -14,6 +15,7 @@ const HomePage=()=>{
         <InfoHomePage/>
         <NumberSection/>
         <FeaturedJobs/>
+        <AnotherJobSearch/>
         </DefaultLayout>
     )
 }
