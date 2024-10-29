@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Link, NavLink } from "react-router-dom";
-import Images from "../assets/images";
 import Icons from "../assets/icons";
+import Images from "../assets/images";
 
 const navigation = [
   { name: "Home", href: "/ranking" },
