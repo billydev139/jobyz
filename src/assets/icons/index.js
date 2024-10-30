@@ -1,6 +1,7 @@
+import { AiOutlineFileDone } from "react-icons/ai";
 import { BiSolidHide, BiSolidShow } from "react-icons/bi";
 import { CiSearch } from "react-icons/ci";
-import { FaBell, FaCalendar, FaRegClock, FaRegFile } from "react-icons/fa";
+import {FaBell, FaCalendar, FaRegClock, FaRegFile } from "react-icons/fa";
 import {
   FaFacebook,
   FaInstagram,
@@ -8,11 +9,12 @@ import {
   FaUser,
   FaXTwitter,
 } from "react-icons/fa6";
-import { FiBell, FiCalendar, FiMapPin } from "react-icons/fi";
 import { GrLanguage } from "react-icons/gr";
+import { HiOutlineBars3CenterLeft, HiXMark } from "react-icons/hi2";
 import { IoBriefcaseOutline } from "react-icons/io5";
-import { MdPlace } from "react-icons/md";
+import { MdArrowOutward, MdPlace } from "react-icons/md";
 import { RiListSettingsLine } from "react-icons/ri";
+import { TbFileSettings } from "react-icons/tb";
 
 const Icons = {
   FaUser,
@@ -31,6 +33,11 @@ const Icons = {
   GrLanguage,
   RiListSettingsLine,
   FaCalendar,
+  HiOutlineBars3CenterLeft,
+  HiXMark,
+  MdArrowOutward,
+  TbFileSettings,
+  AiOutlineFileDone
 };
 
 export default Icons;

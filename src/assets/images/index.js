@@ -4,6 +4,7 @@ import reduce from './reduce.png';
 import saveTime from './saveTime.png';
 import minimize from './minimize.png';
 import save from './save.png'
+import getjob from './getjob.png'
 
 const Images = {
     jobyzlogo: jobyzlogo,   
@@ -11,7 +12,8 @@ const Images = {
     reduce:reduce,
     saveTime:saveTime,
     minimize:minimize,
-    save:save
+    save:save,
+    getjob:getjob
 };
 
 export default Images;

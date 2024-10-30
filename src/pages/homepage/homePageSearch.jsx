@@ -49,13 +49,7 @@ const JobSearch = () => {
           />
         </div>
         <span className="lg:hidden block border-b border-gray-300 h-2  mb-4"></span>
-        <Button
-          //   className="w-full md:w-auto mt-4 md:mt-0 bg-blue-500 text-white p-4 rounded-md font-bold hover:bg-blue-600 transition duration-200"
-          //   bordercolor={"border-bodyblue"}
-          background={"bg-custom-gradient"}
-          //   hoverbg={"hover:bg-bodyblue"}
-          className="lg:mx-0 mx-4"
-        >
+        <Button background={"bg-custom-gradient"} className="lg:mx-0 mx-4">
           Find Jobs
         </Button>
         {/* <button className="w-full md:w-auto mt-4 md:mt-0 bg-blue-500 text-white p-4 rounded-md font-bold hover:bg-blue-600 transition duration-200">

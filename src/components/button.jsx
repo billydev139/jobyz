@@ -14,9 +14,9 @@ const Button = ({
   bordercolor,
   hoverbg,
 }) => {
-  const classes = `  py-2 ${
+  const classes = `  py-2 px-2 ${
     background ? background : "bg-bodyblue"
-  }  rounded-md text-base ${
+  }  rounded text-base ${
     textcolor ? textcolor : "text-white"
   } hover:border-bodyblue tracking-wide ${
     bordercolor ? bordercolor : "border-primary " 
