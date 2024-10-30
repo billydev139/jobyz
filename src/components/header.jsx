@@ -7,10 +7,10 @@ import Images from "../assets/images";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Find a job", href: "/find-job" },
-  { name: "Explore companies", href: "" },
-  { name: "Compare salaries", href: "" },
-  { name: "Recruiter area", href: "" },
-  { name: "Pages", href: "" },
+  { name: "Explore companies" ,href:"/explore"},
+  { name: "Compare salaries", href: "/compare" },
+  { name: "Recruiter area", href: "/area" },
+  { name: "Pages", href: "/pages" },
 ];
 
 const Header = () => {
@@ -36,7 +36,7 @@ const Header = () => {
               />
             </Link>
           </div>
-          <div className="flex justify-evenly items-center gap-5  lg:flex-1">
+          <div className="flex justify-between items-center gap-5  lg:flex-1">
             <div className="hidden lg:flex xl:gap-x-9 gap-4">
               {navigation.map((item) => (
                 <NavLink
@@ -44,8 +44,8 @@ const Header = () => {
                   to={item.href}
                   className={({ isActive }) =>
                     isActive
-                      ? "text-[20px] font-semibold text-black underline "
-                      : "text-[20px] font-semibold text-black"
+                      ? "text-[16px] font-semibold text-primaryBlue  "
+                      : "text-[16px] font-semibold text-[#2E2E2E]"
                   }
                 >
                   {item.name}
@@ -53,7 +53,7 @@ const Header = () => {
               ))}
             </div>
 
-            <div className="lg:flex items-center gap-x-2 hidden">
+            <div className="lg:flex items-center gap-x-2 hidden ">
               <Icons.FaUser /> Login/Register
               {/* {isAuthenticated ? (
                 <Menu as="div" className="relative ml-3">

@@ -3,6 +3,13 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
 .search-background {
   background-image: url('./assets/images/Curvedlines.png');
   background-size: cover;     /* Ensures the image covers the entire area */
