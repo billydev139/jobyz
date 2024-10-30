@@ -11,12 +11,13 @@ const filters = [
   { label: "All Filters", icon: <Icons.RiListSettingsLine /> },
 ];
 
+// eslint-disable-next-line react/prop-types
 const JobSearch = ({heading}) => {
   return (
     <div>
-      {heading==="FAQS" ? (
+      {heading ? (
    <h1 className=" bg-primaryBlue text-white lg:text-[58px] text-[28px] font-bold mb-4  h-[191px]   flex justify-center items-center">
-   FAQS
+   {heading}
  </h1>
     ):(
       <div className="search-background  text-white  px-4 md:px-8 lg:px-16 text-center lg:h-[423px] h-[562px]  lg:pt-16 md:pt-8 pt-4">

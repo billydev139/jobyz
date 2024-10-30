@@ -1,4 +1,4 @@
-import jobyzlogo from "./jobyzlogo.png";
+import jobyzlogo from "./jobyzLogo.png";
 import info from './info.png';
 import reduce from './reduce.png';
 import saveTime from './saveTime.png';

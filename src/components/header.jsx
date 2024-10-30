@@ -5,12 +5,12 @@ import Icons from "../assets/icons";
 import Images from "../assets/images";
 
 const navigation = [
-  { name: "Home", href: "/ranking" },
-  { name: "Find a job", href: "/Community" },
-  { name: "Explore companies", href: "/get-listed" },
-  { name: "Compare salaries", href: "/ranking" },
-  { name: "Recruiter area", href: "/Community" },
-  { name: "Pages", href: "/get-listed" },
+  { name: "Home", href: "/" },
+  { name: "Find a job", href: "/find-job" },
+  { name: "Explore companies", href: "" },
+  { name: "Compare salaries", href: "" },
+  { name: "Recruiter area", href: "" },
+  { name: "Pages", href: "" },
 ];
 
 const Header = () => {

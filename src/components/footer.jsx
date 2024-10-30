@@ -15,7 +15,7 @@ const staticLinks = [
 
   { name: "FAQs", href: "/faq" },
   { name: "Privacy Policy", href: "/privacy-policy" },
-  { name: "Terms & Conditions", href: "/cookie-notice" },
+  { name: "Terms & Conditions", href: "/terms-of-services" },
 ];
 const Footer = () => {
   return (

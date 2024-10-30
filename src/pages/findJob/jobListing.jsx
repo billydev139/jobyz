@@ -250,7 +250,7 @@ const JobListing = () => {
                 Chartered Bank Ltd will process your personal data for the
                 purpose of the hiring and employment process. For further
                 information, please read the Data Privacy Statement for
-                applicants available on the Bank's website. By submitting your
+                applicants available on the Bank&apos;s website. By submitting your
                 application, you then confirm your understanding and acceptance
                 of the above.
               </p>
