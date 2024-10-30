@@ -13,7 +13,7 @@ const navigationLinks = [
 ];
 const staticLinks = [
 
-  { name: "FAQs", href: "/terms-and-conditions" },
+  { name: "FAQs", href: "/faq" },
   { name: "Privacy Policy", href: "/privacy-policy" },
   { name: "Terms & Conditions", href: "/cookie-notice" },
 ];

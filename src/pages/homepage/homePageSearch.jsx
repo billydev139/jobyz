@@ -11,9 +11,15 @@ const filters = [
   { label: "All Filters", icon: <Icons.RiListSettingsLine /> },
 ];
 
-const JobSearch = () => {
+const JobSearch = ({heading}) => {
   return (
-    <div className="search-background  text-white  px-4 md:px-8 lg:px-16 text-center lg:h-[423px] h-[562px]  lg:pt-16 md:pt-8 pt-4">
+    <div>
+      {heading==="FAQS" ? (
+   <h1 className=" bg-primaryBlue text-white lg:text-[58px] text-[28px] font-bold mb-4  h-[191px]   flex justify-center items-center">
+   FAQS
+ </h1>
+    ):(
+      <div className="search-background  text-white  px-4 md:px-8 lg:px-16 text-center lg:h-[423px] h-[562px]  lg:pt-16 md:pt-8 pt-4">
       {/* Title */}
       <h1 className="lg:text-[58px] text-[28px] font-bold mb-4">
         Find The Job That Fits Your Life
@@ -88,6 +94,8 @@ const JobSearch = () => {
           <span className="material-icons mr-1">filter_alt</span> All Filters
         </button>
       </div> */}
+    </div>
+    )}
     </div>
   );
 };
