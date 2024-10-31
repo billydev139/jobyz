@@ -5,7 +5,7 @@ import saveTime from './savetime.png';
 import minimize from './minimize.png';
 import save from './save.png'
 import getjob from './getjob.png'
-import signupImage from './signupImage.png';
+import signupImage from './signupimage.png';
 import google from './google.png';
 import linkedin from './linkedin.png';
 import facebook from './facebook.png';
