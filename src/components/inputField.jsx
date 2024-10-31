@@ -20,7 +20,8 @@ const InputField = ({
   disabled,
   showHideIcon = false,
   paddingRight,
-  borderShape
+  borderShape,
+  placeholderColor
 }) => {
   const [showPassword, setShowPassword] = useState(false); // State to manage password visibility
 
@@ -86,9 +87,9 @@ const InputField = ({
               paddingRight ? `pr-${paddingRight}` : "pr-0"
             } ${borderShape? borderShape:"rounded-lg"}  border-[1px] border-black ${
               type === "textarea" ? "h-[85px] placeholder:top-[-50px]" : ""
-            } ${paddingY ? `py-${paddingY}` : "py-[10px]"} px-2  outline-none ${
+            } ${paddingY ? `${paddingY}` : "py-[10px]"} px-2  outline-none ${
               backgroundcolor ? `bg-${backgroundcolor}` : "bg-white"
-            } placeholder:text-[14px] placeholder:text-[#2E2E2E]`}
+            } placeholder:text-[14px] placeholder:${placeholderColor?placeholderColor:"text-black"}`}
             placeholder={placeholder}
             onChange={onChange}
             disabled={disabled}
@@ -119,6 +120,7 @@ InputField.propTypes = {
   type: PropTypes.string,
   value: PropTypes.any,
   borderShape: PropTypes.any,
+  placeholderColor: PropTypes.any,
 };
 
 export default InputField;
