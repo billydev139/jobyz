@@ -5,6 +5,11 @@ import saveTime from './savetime.png';
 import minimize from './minimize.png';
 import save from './save.png'
 import getjob from './getjob.png'
+import signupImage from './signupImage.png';
+import google from './google.png';
+import linkedin from './linkedin.png';
+import facebook from './facebook.png';
+import x from './x.png'
 
 const Images = {
     jobyzlogo: jobyzlogo,   
@@ -13,7 +18,13 @@ const Images = {
     saveTime:saveTime,
     minimize:minimize,
     save:save,
-    getjob:getjob
+    getjob:getjob,
+    signupImage:signupImage,
+    google:google,
+    linkedin:linkedin,
+    facebook:facebook,
+    x:x
+
 };
 
 export default Images;

@@ -20,6 +20,7 @@ const InputField = ({
   disabled,
   showHideIcon = false,
   paddingRight,
+  borderShape
 }) => {
   const [showPassword, setShowPassword] = useState(false); // State to manage password visibility
 
@@ -35,7 +36,7 @@ const InputField = ({
             <div className="flex items-center justify-between">
               <label
                 htmlFor={id}
-                className="flex justify-start items-center text-black mb-1 text-[16px] font-medium"
+                className="flex justify-start items-center gap-2 text-black mb-2 text-[14px] font-medium"
               >
                 {firstIcon}
                 {label}
@@ -83,7 +84,7 @@ const InputField = ({
             value={value}
             className={`${className} ${
               paddingRight ? `pr-${paddingRight}` : "pr-0"
-            } rounded-lg border-[1px] border-black ${
+            } ${borderShape? borderShape:"rounded-lg"}  border-[1px] border-black ${
               type === "textarea" ? "h-[85px] placeholder:top-[-50px]" : ""
             } ${paddingY ? `py-${paddingY}` : "py-[10px]"} px-2  outline-none ${
               backgroundcolor ? `bg-${backgroundcolor}` : "bg-white"
@@ -117,6 +118,7 @@ InputField.propTypes = {
   showHideIcon: PropTypes.bool,
   type: PropTypes.string,
   value: PropTypes.any,
+  borderShape: PropTypes.any,
 };
 
 export default InputField;

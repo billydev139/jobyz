@@ -8,11 +8,8 @@ const navigationLinks = [
   { name: <Icons.FaInstagram />, href: "#" },
   { name: <Icons.FaFacebook />, href: "#" },
   { name: <Icons.FaXTwitter />, href: "#" },
-
-  
 ];
 const staticLinks = [
-
   { name: "FAQs", href: "/faq" },
   { name: "Privacy Policy", href: "/privacy-policy" },
   { name: "Terms & Conditions", href: "/terms-of-services" },
@@ -49,11 +46,13 @@ const Footer = () => {
           </div>
           <div className="flex justify-center items-center max-lg:mt-4 ">
             <div className="flex flex-wrap justify-center w-full lg:gap-x-4 gap-x-8 ">
-              {staticLinks?.map((item) => (
+              {staticLinks?.map((item, index) => (
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="lg:text-[20px] text-[16px] font-semibold text-black border-r-2 pr-4 border-[#2E2E2E]"
+                  className={`lg:text-[20px] text-[16px] font-semibold text-black ${
+                    index === 2 ? "" : "border-r-2"
+                  }  pr-4 border-[#2E2E2E]`}
                 >
                   {item.name}
                 </Link>

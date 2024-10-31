@@ -5,6 +5,7 @@ import FindJob from "../pages/findJob/findjob";
 import FAQ from "../pages/faqs/faqs";
 import TermsofServices from "../pages/termsofServices/termsofServices";
 import PrivacyPolicy from "../pages/privacyPolicy/privacyPolicy";
+import Signup from "../pages/signup/signup";
 
 const AppRoutes = () => {
   return (
@@ -15,6 +16,8 @@ const AppRoutes = () => {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/terms-of-services" element={<TermsofServices />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/sign-up" element={<Signup />} />
+
       </Routes>
     </Router>
   );
