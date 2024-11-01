@@ -14,8 +14,9 @@ import { GrLanguage } from "react-icons/gr";
 import { HiOutlineBars3CenterLeft, HiXMark } from "react-icons/hi2";
 import { IoIosLock } from "react-icons/io";
 import { IoBriefcaseOutline } from "react-icons/io5";
-import { MdArrowOutward, MdEmail, MdPlace } from "react-icons/md";
+import { MdArrowOutward, MdEmail, MdLocalPhone, MdPlace } from "react-icons/md";
 import { RiListSettingsLine } from "react-icons/ri";
+import { RxCross2 } from "react-icons/rx";
 import { TbFileSettings } from "react-icons/tb";
 
 const Icons = {
@@ -42,7 +43,9 @@ const Icons = {
   AiOutlineFileDone,
   MdEmail,
   IoIosLock,
-  FaArrowRightLong
+  FaArrowRightLong,
+  MdLocalPhone,
+  RxCross2
 };
 
 export default Icons;

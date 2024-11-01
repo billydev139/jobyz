@@ -17,7 +17,7 @@ const RecentSearch=()=> {
           <h2 className="text-2xl lg:text-[36px] font-semibold">Your recent searches</h2>
           <p className="lg:text-lg text-xs  text-gray-500 lg:leading-10">You can view your entire job history by searching for it in the search bar.</p>
         </div>
-        <button className="text-blue-600 text-sm font-medium whitespace-nowrap mt-2">Clear history X</button>
+        <button className="text-blue-600 text-sm font-medium whitespace-nowrap mt-2 flex items-center gap-1">Clear history <Icons.RxCross2/></button>
       </div>
 
       {/* Searches List */}

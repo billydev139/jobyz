@@ -13,7 +13,7 @@ return(
         <Icons.MdArrowOutward size={30} className="text-white  "/>
       </div>
       </div>
-        <h2 className="text-3xl font-bold mb-2 -mt-12">
+        <h2 className="text-3xl font-bold mb-2 -mt-12 max-sm:w-[90%]">
         Ready To Get Focused?
       </h2>
       <h2 className="text-3xl font-bold mb-2">

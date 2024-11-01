@@ -22,7 +22,7 @@ const Footer = () => {
         className="xl:flex  items-center xl:w-[1280px] justify-between xl:mx-auto md:border-t border-[#9BB7FF] lg:border-t-0  lg:pb-6 pb-8 pt-2 lg:pt-6"
       >
         <div className="xl:w-[1280px] lg:flex    justify-between items-center  gap-12">
-          <p className="flex justify-center pb-4 lg:pb-0">
+          <p className="flex justify-center pb-4 lg:pb-0 ">
             {" "}
             © 2024 Jobyz All Rights Reserved.
           </p>
@@ -34,7 +34,7 @@ const Footer = () => {
                   <Link
                     key={item.name}
                     to={item.href}
-                    className={`text-[20px] font-semibold  font-inter ${
+                    className={`text-[16px] font-semibold  font-inter ${
                       item.name === "Follow us" ? "" : "bg-black text-white"
                     }  p-2 rounded-full`}
                   >
@@ -50,7 +50,7 @@ const Footer = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`lg:text-[20px] text-[16px] font-semibold text-black ${
+                  className={` text-[16px] font-semibold text-black ${
                     index === 2 ? "" : "border-r-2"
                   }  pr-4 border-[#2E2E2E]`}
                 >

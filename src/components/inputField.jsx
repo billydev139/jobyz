@@ -21,7 +21,8 @@ const InputField = ({
   showHideIcon = false,
   paddingRight,
   borderShape,
-  placeholderColor
+  placeholderColor,
+
 }) => {
   const [showPassword, setShowPassword] = useState(false); // State to manage password visibility
 
@@ -64,14 +65,15 @@ const InputField = ({
 
         {type === "textarea" ? (
           <textarea
+   
           cols={cols? cols :""}
             className={` ${
               paddingRight ? `pr-${paddingRight}` : "pr-0"
-            } rounded-lg  border-[1px] border-black ${
+            } rounded-lg  border-[1px]  ${
               type === "textarea" ? "h-[85px] placeholder:top-[-50px]" : ""
-            } ${paddingY ? `py-${paddingY}` : "py-[10px]"} px-2  outline-none ${
+            } ${paddingY ? paddingY : "py-[10px]"} px-2  outline-none ${
               backgroundcolor ? `bg-${backgroundcolor}` : "bg-white"
-            } placeholder:text-[14px]`}
+            } placeholder:text-[14px] ${placeholderColor?`placeholder:${placeholderColor}`:"placeholder:text-black"}`}
             name={name}
             placeholder={placeholder}
             onChange={onChange}
@@ -89,7 +91,7 @@ const InputField = ({
               type === "textarea" ? "h-[85px] placeholder:top-[-50px]" : ""
             } ${paddingY ? `${paddingY}` : "py-[10px]"} px-2  outline-none ${
               backgroundcolor ? `bg-${backgroundcolor}` : "bg-white"
-            } placeholder:text-[14px] placeholder:${placeholderColor?placeholderColor:"text-black"}`}
+            } placeholder:text-[14px] ${placeholderColor?placeholderColor:"placeholder:text-black"}`}
             placeholder={placeholder}
             onChange={onChange}
             disabled={disabled}

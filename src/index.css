@@ -26,3 +26,12 @@ body {
 svg.star-svg {
   display: inline;
 }
+.avatar-background {
+  z-index: 10;
+  background-image: url('./assets/images/avatarbackendImage.png');
+  background-size: cover;     /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 400px;
+  height: 220px;
+}

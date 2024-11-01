@@ -10,6 +10,8 @@ import google from './google.png';
 import linkedin from './linkedin.png';
 import facebook from './facebook.png';
 import x from './x.png'
+import avatar from './avatar.png'
+
 
 const Images = {
     jobyzlogo: jobyzlogo,   
@@ -23,7 +25,8 @@ const Images = {
     google:google,
     linkedin:linkedin,
     facebook:facebook,
-    x:x
+    x:x,
+    avatar:avatar
 
 };
 
